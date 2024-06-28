@@ -4,8 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon index.js",
-    "dev_2":"nodemon rooting.js"
+    "dev": "nodemon index.js",
+    "dev_2": "nodemon rooting.js",
+    "dev_3": "node --watch 3.express.js"
   },
   "keywords": [],
   "author": "",
@@ -80,6 +81,7 @@
     "esrecurse": "^4.3.0",
     "estraverse": "^5.3.0",
     "esutils": "^2.0.3",
+    "express": "4.19.2",
     "fast-deep-equal": "^3.1.3",
     "fast-json-stable-stringify": "^2.1.0",
     "fast-levenshtein": "^2.0.6",
